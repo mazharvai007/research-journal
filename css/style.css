@@ -1,0 +1,100 @@
+
+/* 
+======
+Header Area
+======
+*/
+.header-area .logo-area {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.header-area .logo-area em {
+    color: #FFA726;
+}
+#header.header-area nav {
+    background-color: #192A56;
+}
+#header.header-area nav ul li a,
+.offcanvas-menu .uk-icon {
+    color: #fff;
+}
+#header.header-area nav ul li a:hover,
+#header.header-area nav ul li.uk-active a {
+    background-color: #FFA726;
+    color: #fff;
+}
+.offcanvas-menu {
+    width: 100%;
+}
+.mobile-menu-btn {
+    background-color: transparent;
+}
+
+/* 
+============
+Main Content
+============
+*/
+article.uk-article h1 {
+    font-size: 18px;
+    font-weight: 700;
+}
+article.uk-article a.uk-button::before {
+    border: 0;
+}
+
+/*
+========
+Sidebar
+========
+*/
+.left-sidebar h3,
+.right-sidebar h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+.sidebar-menu ul li a,
+.footer-box ul li a {
+    color: #000000;
+}
+.sidebar-menu ul li a:hover,
+.footer-box ul li a:hover,
+article.uk-article .uk-article-meta a:hover,
+article.uk-article a.uk-button:hover {
+    color: #FFA726;
+}
+
+/* 
+============
+Footer Area
+============
+*/
+.footer-area {
+}
+.footer-area .uk-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #192A56;
+}
+.footer-box h3,
+.footer-box p,
+.footer-box ul li a {
+    color: #fff;
+}
+.footer-box ul li a:hover {
+    color: #FFA726;
+}
+.copyright-area .uk-container {
+    background-color: #0A3D62;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.copyright {
+    color: #fff;
+}
+.copyright a {
+    color: #FFA726;
+}
+.copyright a:hover {
+    text-decoration: none;
+}
